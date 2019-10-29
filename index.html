@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="page">
+<div id="title">The path of your investment</div>
+<div id="unit">Investment(GFCF), Annual growth rate (%)</div>
+<div id="desc">
+    <p>A data poetry look at investement</p><p>Each small segment is the investment growth for a country a given year. The next investment growth segment starts where the previous one ends</p>
+    <p>Observe how investiment has evolved in countries over the recent period. Shorter lines mean greater difference in
+investment from one year to the other</p></div>
+
+<div id="chart-tooltip">
+    <p class="tooltip-title"></p>
+    <p class="tooltip-explanation"></p>
+    <p class="tooltip-value"></p>
+</div>
+
+<div class="tool" id="chart">
+</div>
+
+</body>
+<script src="d3.v4.min.js"></script><script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="d3.v4.min.js"></script><script src="sketch.js"></script>
